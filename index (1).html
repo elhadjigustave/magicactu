@@ -1,0 +1,164 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÀL'heure | Actus & Opinions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ÀL'heure</div>
+            <ul class="nav-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Informations</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Publicité</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Blog, Infos & Opinions</h1>
+        </section>
+
+        <section class="section">
+            <h2>Actualités</h2>
+            <div class="articles">
+                <article>
+                    <img src="tank.jpg" alt="Armée">
+                    <h3>L'armée américaine voit un déploiement</h3>
+                </article>
+                <article>
+                    <img src="moyen-orient.jpg" alt="Pourparlers">
+                    <h3>Des pourparlers de paix au Moyen-Orient devraient avoir lieu</h3>
+                </article>
+                <article>
+                    <img src="jet.jpg" alt="Raid">
+                    <h3>Des raids aériens en Syrie</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Politiques</h2>
+            <div class="articles">
+                <article>
+                    <img src="usa-china.jpg" alt="Entente">
+                    <h3>Entente entre la Chine et les USA</h3>
+                </article>
+                <article>
+                    <img src="changement.jpg" alt="Changement">
+                    <h3>Pas d'amélioration dans les actions de changement...</h3>
+                </article>
+                <article>
+                    <img src="france-election.jpg" alt="Élections">
+                    <h3>La France se prépare pour les élections</h3>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ÀL'heure. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Exemple JS simple : Affichage d'une alerte au clic sur le logo
+        document.querySelector('.logo').addEventListener('click', () => {
+            alert("Bienvenue sur ÀL'heure !");
+        });
+    </script>
+</body>
+</html>
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #002f6c;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-links li {
+    margin: 8px 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background: #444; /* Remplace par une image si besoin */
+    padding: 60px 15px;
+    text-align: center;
+    color: white;
+}
+
+.section {
+    padding: 20px 15px;
+}
+
+.section h2 {
+    color: #002f6c;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+article {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+article h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #002f6c;
+    color: white;
+    font-size: 14px;
+}</style>
